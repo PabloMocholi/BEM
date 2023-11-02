@@ -1,2 +1,2 @@
 # BEM
-Ejercicio práctica BEM
+Ejercicio práctica Metodologías CSS
