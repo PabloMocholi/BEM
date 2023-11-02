@@ -4,19 +4,22 @@ body{
 }
 
 .container{
-    border: 1px solid black;
+
     width: 80%;
     margin: auto;
-    height: 100vh;
+    display: block;
 }
 
-.container__tarjeta{
-    border: 1px solid red;
+
+.container__tarjeta__elemento{
     height: 400px;
-    width: 500px;
-    float: left;
+    width: 400px;
+    border: 1px solid black;
+
 }
 
-.container__tarjeta:nth-child(odd){
+div.container__tarjeta div:nth-child(even){
+
     float: right;
+
 }
