@@ -4,22 +4,50 @@ body{
 }
 
 .container{
+    display: flex;
+    justify-content: center;
+}
 
-    width: 80%;
+.container__tarjeta{
+    width: 55%;
+}
+
+.container__tarjeta--borde{
+    border-right: 1px solid darkblue;
+}
+
+.container__tarjeta__datos{
+    display: flex;
+    margin-bottom: 250px;
+    align-items: center;
+}
+
+.container__tarjeta__datos--right{
+
+    margin-bottom: 0;
+    margin-top: 275px;
+    
+}
+
+.container__tarjeta__datos__info{
     margin: auto;
-    display: block;
+    height: 300px;
+    width: 70%;
+    border: 1px solid darkblue;
 }
 
-
-.container__tarjeta__elemento{
-    height: 400px;
-    width: 400px;
+.container__tarjeta__datos__fecha{
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
-
+    border-radius: 50px;
+    margin-right: -50px;
+    background-color: darkblue;
 }
 
-div.container__tarjeta div:nth-child(even){
-
-    float: right;
-
+.container__tarjeta__datos__fecha--right{
+ 
+    margin-right: 0px;
+    margin-left: -50px;
 }
+

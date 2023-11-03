@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <title>BEM</title>
 </head>
+
 <body>
 
-
-    <div class="container__tarjeta">
-        <div class="container__tarjeta__elemento"></div>
-        <div class="container__tarjeta__elemento"></div>
-        <div class="container__tarjeta__elemento"></div>
+    <div class="container">
+        <div class="container__tarjeta container__tarjeta--borde">
+            <div class="container__tarjeta__datos ">
+                <div class="container__tarjeta__datos__info"></div>
+                <div class="container__tarjeta__datos__fecha"></div>
+            </div>
+            <div class="container__tarjeta__datos">
+                <div class="container__tarjeta__datos__info"></div>
+                <div class="container__tarjeta__datos__fecha"></div>
+            </div>
+        </div>
+        <div class="container__tarjeta">
+            <div class="container__tarjeta__datos container__tarjeta__datos--right">
+                <div class="container__tarjeta__datos__fecha container__tarjeta__datos__fecha--right"></div>
+                <div class="container__tarjeta__datos__info"></div>     
+            </div>
+            <div class="container__tarjeta__datos container__tarjeta__datos--right">
+                <div class="container__tarjeta__datos__fecha container__tarjeta__datos__fecha--right"></div>
+                <div class="container__tarjeta__datos__info"></div>     
+            </div>
+        </div>
     </div>
 
-    
+
+
 </body>
+
 </html>
