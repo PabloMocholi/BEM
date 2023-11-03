@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px
+}
+
+.HeaderText {
+    flex-grow: 1;
+}
+
+.Banner {
+
+    border: 1px solid rgb(223, 221, 221);
+    padding: 25px;
+    width: 95%;
+    margin: auto;
+
+}
+
+button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.Banner-contenido {
+    display: flex;
+}
+
+.Banner-contenido-info {
+    flex-grow: 1;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.Banner-contenido-info-numeros {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.Banner-contenido-info-numeros-num {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid rgb(223, 221, 221);
+}
+
+.Banner-contenido-info-bar{
+    width: 500px;
+    height: 5px;
+    background-color: greenyellow;
+    margin-top: 100px;
+}
+
+.Banner-navegador {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.Banner-navegador-links {
+    float: left;
+    margin-right: 100px;
+}
+
+.Banner-navegador-links-link {
+    text-decoration: none;
+    color: black;
+}
+
+.Banner-navegador-links.is-hover {
+    border-bottom: 1px solid blue;
+}
+
+.Banner-navegador-links.is-active {
+
+    border-bottom: 1px solid blue;
+}
+
+.Banner-navegador-links-link.is-active {
+
+    color: blue;
+}
+
+.Container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px
+}
+
+
+.u-bcgBlue {
+    background-color: blue;
+    color: white;
+}
+
+.u-textBold {
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.u-textLight {
+    font-weight: lighter;
+    color: gray;
+}
+
+.u-borderRadius {
+    border-radius: 15px;
+}
+
+.u-marginRight {
+    margin-right: 20px;
+}
+
+.u-floatRight{
+    float: right;
+}
